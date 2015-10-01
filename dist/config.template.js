@@ -1,5 +1,5 @@
 angular.module('formioSalesQuoteApp').constant('AppConfig', {
-  appUrl: 'http://{{ path }}.localhost:3000',
-  apiUrl: 'http://api.localhost:3000',
+  appUrl: '{{ protocol }}://{{ path }}.{{ host }}',
+  apiUrl: '{{ protocol }}://api.{{ host }}',
   company: 'Acme Inc.'
 });
