@@ -2099,7 +2099,7 @@
                       "inputType": "text",
                       "tableView": true,
                       "input": true,
-                      "key": "profit%",
+                      "key": "profit",
                       "placeholder": "",
                       "protected": false
                     },
