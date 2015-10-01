@@ -17,6 +17,15 @@
       "default": true
     }
   },
+  "settings": {
+    "office365": {
+      "tenant": "",
+      "clientId": "",
+      "email": "",
+      "cert": "",
+      "thumbprint": ""
+    }
+  },
   "forms": {
     "agentLoginForm": {
       "title": "Agent Login Form",

@@ -8,10 +8,7 @@
     "test": "gulp test"
   },
   "formio": {
-    "docRoot": "dist",
-    "settings": {
-      "office365": true
-    }
+    "docRoot": "dist"
   },
   "devDependencies": {
     "gulp": "~3.9.0",
