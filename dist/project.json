@@ -157,7 +157,7 @@
           "label": "Admin Email",
           "protected": false,
           "tableView": true,
-          "key": "admins.email",
+          "key": "admin.email",
           "placeholder": "Enter your email address",
           "input": true,
           "lockKey": true,
@@ -177,7 +177,7 @@
           "tableView": false,
           "type": "password",
           "label": "Admin Password",
-          "key": "admins.password",
+          "key": "admin.password",
           "placeholder": "Enter your password",
           "prefix": "",
           "lockKey": true,
@@ -588,7 +588,7 @@
     "action13": {
       "title": "Role Assignment",
       "name": "role",
-      "form": "admins",
+      "form": "admin",
       "settings": {
         "role": "administrator",
         "type": "add",
@@ -608,8 +608,8 @@
       "form": "adminLoginForm",
       "settings": {
         "association": "existing",
-        "password": "admins.password",
-        "username": "admins.email"
+        "password": "admin.password",
+        "username": "admin.email"
       },
       "priority": 0,
       "method": [
@@ -2865,11 +2865,11 @@
         }
       ]
     },
-    "admins": {
-      "title": "Admins",
+    "admin": {
+      "title": "Admin",
       "type": "resource",
-      "name": "admins",
-      "path": "admins",
+      "name": "admin",
+      "path": "admin",
       "components": [
         {
           "inputType": "text",
