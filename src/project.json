@@ -5,7 +5,8 @@
   "roles": {
     "administrator": {
       "title": "Administrator",
-      "description": "The Administrator Role."
+      "description": "The Administrator Role.",
+      "admin": true
     },
     "agent": {
       "title": "Agent",
