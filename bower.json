@@ -21,12 +21,5 @@
   "resolutions": {
     "jquery": "~2.1.4",
     "angular": "~1.4.0"
-  },
-  "overrides": {
-    "bootstrap-sass-official": {
-      "main": [
-        "assets/javascripts/bootstrap.js"
-      ]
-    }
   }
 }
