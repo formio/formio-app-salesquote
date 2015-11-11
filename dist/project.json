@@ -2,6 +2,10 @@
   "title": "Sales Quote",
   "description": "An application for managing Sales Quotes.",
   "name": "salesquote",
+  "preview": {
+    "url": "http://formio.github.com/formio-app-salesquote",
+    "repo": "https://github.com/formio/formio-app-salesquote"
+  },
   "roles": {
     "administrator": {
       "title": "Administrator",
