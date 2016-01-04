@@ -15,7 +15,8 @@
     .module('formioSalesQuoteApp', [
       'formio',
       'ui.router',
-      'ngMap'
+      'ngMap',
+      'bgf.paginateAnything'
     ])
     .filter('ucfirst', [function() {
       return function(input) {

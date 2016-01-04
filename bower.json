@@ -2,18 +2,19 @@
   "name": "formioAppSalesquote",
   "version": "0.0.0",
   "dependencies": {
-    "angular-sanitize": "~1.4.0",
+    "angular-sanitize": "~1.4.8",
     "jquery": "~2.1.4",
     "angular-ui-router": "~0.2.15",
-    "bootstrap-sass-official": "~3.3.4",
-    "angular-bootstrap": "~0.13.0",
-    "moment": "~2.10.3",
-    "animate.css": "~3.3.0",
-    "angular": "~1.4.0",
-    "font-awesome": "~4.4.0",
-    "formio": "develop",
-    "bootswatch": "v3.3.5+4",
-    "ngmap": "~1.13.8"
+    "angular-bootstrap": "~0.14.3",
+    "moment": "~2.11.0",
+    "animate.css": "~3.5.1",
+    "angular": "~1.4.8",
+    "font-awesome": "~4.5.0",
+    "formio": "~0.5.4",
+    "bootswatch": "~3.3.6+1",
+    "ngmap": "~1.16.3",
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6",
+    "angular-paginate-anything": "~4.1.2"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.0"
