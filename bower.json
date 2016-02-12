@@ -1,6 +1,6 @@
 {
   "name": "formioAppSalesquote",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "angular-sanitize": "^1.5.0",
     "jquery": "^2.2.0",
