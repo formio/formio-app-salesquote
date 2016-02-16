@@ -1,6 +1,7 @@
 {
   "title": "Sales Quote",
   "description": "An application for managing Sales Quotes.",
+  "version": "1.0.0",
   "name": "salesquote",
   "preview": {
     "url": "http://formio.github.io/formio-app-salesquote/dist",
@@ -93,7 +94,6 @@
         {
           "roles": [
             "administrator",
-            "55cd5c3ca51a96bef99ef54e",
             "anonymous",
             "agent"
           ],
@@ -162,7 +162,7 @@
           "label": "Admin Email",
           "protected": false,
           "tableView": true,
-          "key": "admin.email",
+          "key": "email",
           "placeholder": "Enter your email address",
           "input": true,
           "lockKey": true,
@@ -182,7 +182,7 @@
           "tableView": false,
           "type": "password",
           "label": "Admin Password",
-          "key": "admin.password",
+          "key": "password",
           "placeholder": "Enter your password",
           "prefix": "",
           "lockKey": true,
@@ -402,22 +402,27 @@
         "after"
       ]
     },
-    "action5": {
-      "title": "Authentication",
-      "name": "auth",
+    "agentLogin": {
+      "name": "login",
+      "title": "Login",
       "form": "agentLoginForm",
+      "priority": 2,
+      "method": ["create"],
+      "handler": ["before"],
       "settings": {
-        "username": "agent.email",
-        "association": "existing",
-        "password": "agent.password"
-      },
+        "resources": ["agent"],
+        "username": "email",
+        "password": "password"
+      }
+    },
+    "agentLoginNoSubmit": {
+      "name": "nosubmit",
+      "title": "Skip Form Submission",
+      "form": "agentLoginForm",
       "priority": 0,
-      "method": [
-        "create"
-      ],
-      "handler": [
-        "before"
-      ]
+      "handler": ["before"],
+      "method": ["create"],
+      "settings": {}
     },
     "action6": {
       "title": "Email",
@@ -607,22 +612,27 @@
         "after"
       ]
     },
-    "action14": {
-      "title": "Authentication",
-      "name": "auth",
+    "adminLogin": {
+      "name": "login",
+      "title": "Login",
       "form": "adminLoginForm",
+      "priority": 2,
+      "method": ["create"],
+      "handler": ["before"],
       "settings": {
-        "association": "existing",
-        "password": "admin.password",
-        "username": "admin.email"
-      },
+        "resources": ["admin"],
+        "username": "email",
+        "password": "password"
+      }
+    },
+    "adminLoginNoSubmit": {
+      "name": "nosubmit",
+      "title": "Skip Form Submission",
+      "form": "adminLoginForm",
       "priority": 0,
-      "method": [
-        "create"
-      ],
-      "handler": [
-        "before"
-      ]
+      "handler": ["before"],
+      "method": ["create"],
+      "settings": {}
     }
   },
   "resources": {
