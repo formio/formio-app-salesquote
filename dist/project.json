@@ -53,7 +53,7 @@
           "protected": false,
           "lockKey": true,
           "placeholder": "Enter your email address",
-          "key": "agent.email",
+          "key": "email",
           "defaultValue": "",
           "persistent": true,
           "suffix": ""
@@ -67,7 +67,7 @@
           "prefix": "",
           "tableView": false,
           "suffix": "",
-          "key": "agent.password",
+          "key": "password",
           "placeholder": "Enter your password",
           "lockKey": true,
           "persistent": true,
