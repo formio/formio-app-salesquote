@@ -257,6 +257,60 @@
     }
   },
   "actions": {
+    "customerSave": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "customer",
+      "handler": ["before"],
+      "method": ["create", "update"],
+      "priority": 11,
+      "settings": {}
+    },
+    "agentSave": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "agent",
+      "handler": ["before"],
+      "method": ["create", "update"],
+      "priority": 11,
+      "settings": {}
+    },
+    "opportunitySave": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "opportunity",
+      "handler": ["before"],
+      "method": ["create", "update"],
+      "priority": 11,
+      "settings": {}
+    },
+    "contractSave": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "contract",
+      "handler": ["before"],
+      "method": ["create", "update"],
+      "priority": 11,
+      "settings": {}
+    },
+    "quoteSave": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "quote",
+      "handler": ["before"],
+      "method": ["create", "update"],
+      "priority": 11,
+      "settings": {}
+    },
+    "adminSave": {
+      "title": "Save Submission",
+      "name": "save",
+      "form": "admin",
+      "handler": ["before"],
+      "method": ["create", "update"],
+      "priority": 11,
+      "settings": {}
+    },
     "action0": {
       "title": "Email",
       "name": "email",
