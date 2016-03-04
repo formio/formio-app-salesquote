@@ -1,7 +1,7 @@
 {
   "title": "Sales Quote",
   "description": "An application for managing Sales Quotes.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "salesquote",
   "preview": {
     "url": "http://formio.github.io/formio-app-salesquote/dist",
@@ -415,15 +415,6 @@
         "password": "password"
       }
     },
-    "agentLoginNoSubmit": {
-      "name": "nosubmit",
-      "title": "Skip Form Submission",
-      "form": "agentLoginForm",
-      "priority": 0,
-      "handler": ["before"],
-      "method": ["create"],
-      "settings": {}
-    },
     "action6": {
       "title": "Email",
       "name": "email",
@@ -624,15 +615,6 @@
         "username": "email",
         "password": "password"
       }
-    },
-    "adminLoginNoSubmit": {
-      "name": "nosubmit",
-      "title": "Skip Form Submission",
-      "form": "adminLoginForm",
-      "priority": 0,
-      "handler": ["before"],
-      "method": ["create"],
-      "settings": {}
     }
   },
   "resources": {
