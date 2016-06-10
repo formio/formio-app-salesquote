@@ -2,6 +2,10 @@
     "title": "Sales Quote",
     "version": "2.0.0",
     "description": "A sales quoting project that lets agents login and manage their opportunities, customers, and contracts.",
+    "preview": {
+      "url": "http://formio.github.io/formio-app-salesquote/dist",
+      "repo": "https://github.com/formio/formio-app-salesquote"
+    },
     "roles": {
         "administrator": {
             "title": "Administrator",
