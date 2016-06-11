@@ -27,7 +27,7 @@
         }
     },
     "forms": {
-        "agentLoginForm": {
+        "userLoginForm": {
             "title": "Login Form",
             "type": "form",
             "name": "loginForm",
@@ -204,10 +204,10 @@
             "method": ["create"],
             "handler": ["after"]
         },
-        "agentLoginFormAgentLogin": {
+        "userLoginFormLogin": {
             "title": "Login",
             "name": "login",
-            "form": "agentLoginForm",
+            "form": "userLoginForm",
             "condition": {
                 "custom": "",
                 "value": "",
