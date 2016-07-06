@@ -1,6 +1,6 @@
 {
     "title": "Sales Quote",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A sales quoting project that lets agents login and manage their opportunities, customers, and contracts.",
     "preview": {
       "url": "http://formio.github.io/formio-app-salesquote/dist",
@@ -417,7 +417,7 @@
             "type": "resource",
             "name": "agent",
             "path": "agent",
-            "tags": [],
+            "tags": ["user"],
             "components": [{
                 "tableView": true,
                 "key": "firstName",
@@ -2123,7 +2123,7 @@
             "type": "resource",
             "name": "admin",
             "path": "admin",
-            "tags": [],
+            "tags": ["user"],
             "components": [{
                 "input": true,
                 "key": "firstName",
