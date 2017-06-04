@@ -24,6 +24,7 @@
       'FormioAuthProvider',
       '$stateProvider',
       '$urlRouterProvider',
+      '$locationProvider',
       'AppConfig',
       function(
         FormioProvider,
@@ -31,8 +32,10 @@
         FormioAuthProvider,
         $stateProvider,
         $urlRouterProvider,
+        $locationProvider,
         AppConfig
       ) {
+        $locationProvider.hashPrefix('');
         FormioProvider.setAppUrl(AppConfig.appUrl);
         FormioProvider.setBaseUrl(AppConfig.apiUrl);
         FormioAuthProvider.setStates('auth.login', 'home');
